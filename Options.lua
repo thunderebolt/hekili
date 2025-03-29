@@ -2080,6 +2080,14 @@ return "Position" end,
                                 disabled = function () return data.keybindings.enabled == false end,
                             },
 
+                            keybindsOnly = {
+                                type = "toggle",
+                                name = "Keybinds Only",
+                                order = 3,
+                                desc = "When enabled, ability icons will be hidden and only keybindings will be shown. This creates a minimal display while still showing your keybind information.\n\nAll other features like cooldown swipes, highlighting, and borders remain functional.",
+                                width = 1.49,
+                            },
+
                             pos = {
                                 type = "group",
                                 inline = true,
